@@ -20,7 +20,7 @@ MainnetSetting = BaseChainSetting(ETH2_NETWORK_NAME=MAINNET, GENESIS_FORK_VERSIO
 PyrmontSetting = BaseChainSetting(ETH2_NETWORK_NAME=PYRMONT, GENESIS_FORK_VERSION=bytes.fromhex('00002009'))
 # Eth2 testnet (spec v1.0.1)
 PraterSetting = BaseChainSetting(ETH2_NETWORK_NAME=PRATER, GENESIS_FORK_VERSION=bytes.fromhex('00001020'))
-Devnet3Setting = BaseChainSetting(ETH2_NETWORK_NAME=DEVNET3, GENESIS_FORK_VERSION=bytes.fromhex('0x50000069'))
+Devnet3Setting = BaseChainSetting(ETH2_NETWORK_NAME=DEVNET3, GENESIS_FORK_VERSION=bytes.fromhex('50000069'))
 
 ALL_CHAINS: Dict[str, BaseChainSetting] = {
     MAINNET: MainnetSetting,
